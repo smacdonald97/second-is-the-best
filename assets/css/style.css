@@ -67,6 +67,24 @@ header nav ul li a:hover{
 section {
     color: var(--secondary-color);
     background-color: var(--primary-color);
+    margin: 20px 50px 20px 50px;
+    padding: 25px;
+    overflow: auto;
+}
+
+section img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+section p a {
+    color: var(--tertiary-color);
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+.float-left img{
+    float: left;
 }
 
 .me {
