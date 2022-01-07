@@ -9,8 +9,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
 }
 
 header {
@@ -28,10 +26,37 @@ header h1 {
     font-weight: bold;
 }
 
-header nav {
+header h1 a{
+    text-decoration: none;
+    color: var(--tertiary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    text-shadow:0 0 2px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+header nav ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: var(--tertiary-color);
+    text-shadow: rgba(0, 0, 0, 0.5);
+    padding: 15px 20px;
+}
+
+header nav ul li a:hover{
+    background: var(--tertiary-color);
+    color: var(--primary-color);
 }
