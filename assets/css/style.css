@@ -99,8 +99,17 @@ section p a {
     color: var(--tertiary-color);
 }
 
+.contact {
+    text-align: right;
+}
+
 .contact p a{ 
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 25px;
     font-weight: bolder;
+}
+
+footer {
+    color: var(--tertiary-color);
+    text-align: center;
 }
